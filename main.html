@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="submit" method="post">
+	<form action="/submit-form" method="post">
 	<lable for="name">Name:</lable>
 	<input type="text" id="name" placeholder="Name" required><br>
 
@@ -16,10 +16,10 @@
 	<input type="email" id="email" placeholder="Email" required><br>
 
 	<lable> Gender:</lable>
-	<input type="radio" id="gender_f" name="gender" value="female" required>
-	<label for="gender_f">Female</label>
 	<input type="radio" id="gender_m" name="gender" value="male" required>
-	<lable for="gender_m">Male</lable><br>
+	<label for="gender_f">Male</label>
+	<input type="radio" id="gender_f" name="gender" value="female" required>
+	<lable for="gender_m">Female</lable><br>
 
 	<lable for="cars">Car Brands:</lable>
 	<select id="cars" name="cars" required>
