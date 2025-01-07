@@ -8,6 +8,46 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="submit" method="post">
+	<lable for="name">Name:</lable>
+	<input type="text" id="name" placeholder="Name" required><br>
+
+	<lable for="email">Email:</lable>
+	<input type="email" id="email" placeholder="Email" required><br>
+
+	<lable> Gender:</lable>
+	<input type="radio" id="gender_f" name="gender" value="female" required>
+	<label for="gender_f">Female</label>
+	<input type="radio" id="gender_m" name="gender" value="male" required>
+	<lable for="gender_m">Male</lable><br>
+
+	<lable for="cars">Car Brands:</lable>
+	<select id="cars" name="cars" required>
+		<option value="">--Please choose an option--</option>
+		<option value="bmw"> BMW </option>
+		<option value="audi"> Audi </option>
+		<option value="tesla"> Tesla </option>
+		<option value="rolls royce"> Rolls Royce </option>
+	</select><br>
+
+	<lable for="age"> Age:</lable>
+	<input type="number" id="age" placeholder="Age" required><br>
+
+	<lable for="dob"> DOB: </lable>
+	<input type="date" id="dob" placeholder="DOB" required><br>
+
+	<lable for="tel"> Phone Number: </lable>
+	<input type="tel" id="tel" placeholder="Telephone"><br>
+
+	<lable for="password"> Password: </lable>
+	<input type="password" id="password" placeholder="Password" required><br>
+
+	<lable for="tos"> I agree to the TOS </lable>
+	<input type="checkbox" id="tos" name="tos" required><br>
+
+	<button type="submit">Submit</button>
+	</form>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
